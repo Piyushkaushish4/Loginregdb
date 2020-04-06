@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registers"
+    android:background="@drawable/bground"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="60dp"
+        android:id="@+id/et_name"
+        android:layout_centerHorizontal="true"
+
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="130dp"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:id="@+id/et_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="30dp"
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:hint="Username"
+        android:id="@+id/et_uname"
+        android:layout_centerHorizontal="true"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:text="Create Password"
+        android:layout_marginLeft="30dp"
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/et_pword"
+        android:layout_marginTop="270dp"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="Confirm Password"
+        android:layout_marginLeft="30dp"
+       />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/et_cpword"
+        android:inputType="textPassword"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFA500"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="420dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/bt_register"
+        android:background="#00FF00"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:text="Login"
+        android:id="@+id/bt_next"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>
